@@ -1,0 +1,43 @@
+body{
+    background-color: #cdb4db;
+}
+
+.h{
+    text-align: center;
+}
+.p1{
+
+}
+.h2{
+    font-size: 24px;
+    font-size: 20vw;
+    font-size: 1rem;   /* it will used this command because it will come at last*/
+    background-color: aqua;
+}
+.header{
+    padding: 30px;
+    background-color: #ffc8dd;
+    font-family: monospace;
+    margin: 50px;
+    border: 2px solid gray;
+
+}
+
+.new
+{
+    font-size: large;
+    font-weight: 100;
+    font-style: italic;
+    text-align: justify;
+    text-transform: uppercase;
+    text-indent: 5rem;
+    text-overflow: initial;
+    letter-spacing: 0rem;
+    font-family: 'Segoe UTx', Tahomax, Genevax, Verdanax, sans-serifx , monospace;
+
+
+    text-decoration: underline red;
+    line-height: 1rem;
+    word-spacing: 0.0rem
+    
+}

@@ -1,0 +1,26 @@
+
+*{
+    font-family: monospace;
+    background-color: burlywood;
+    color: aqua;
+}
+/* class */
+.first , .ulist1{
+    color:black;
+    text-font: Monospace; 
+}
+
+/* using id */
+/* #first{
+    background-color: red;
+    font-family: serif;
+} */
+
+.ulist1 > li {
+    color: aquamarine;
+    background-color: red;
+}
+
+/* .ulist1{
+    background-color: red;
+} */

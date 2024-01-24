@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ubuntu',monospace;
+    font-weight: bold;
+}
+
+
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, #ffcc00, #ff6600);
+}
+
+.Inner-box{
+
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.signup-body{
+
+}

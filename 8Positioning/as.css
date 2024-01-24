@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+nav{
+width: 100%;
+height: 20px;
+background-color: aquamarine;
+position: fixed;
+top: 0;
+}
+
+main{
+margin-top: 30px;
+padding: 20px;
+width:50%;
+height: 250vh;
+margin-top: auto;
+position: relative;
+left: 20%;
+right: 30%;
+border: 1px solid black;
+
+
+}
+
+.Container{
+width: 100%;
+height: 150vh;
+position: absolute;
+top: 0;
+}
+
+aside{
+    margin-top: 130px;
+    width: 300px;
+    background-color: purple;
+    font: right;
+    height: 80vh;
+    float: right;
+    position: sticky;
+    top: 100px;
+
+}
+
+.contact {
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    border-radius: 40px;
+    background-color: red;
+}

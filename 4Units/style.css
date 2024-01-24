@@ -1,0 +1,22 @@
+body{
+    background-color: #cdb4db;
+}
+
+.h{
+    text-align: center;
+}
+.p1{
+
+}
+.h2{
+    font-size: 24px;
+    font-size: 20vw;
+    font-size: 1rem;   /* it will used this command because it will come at last*/
+    background-color: aqua;
+}
+.header{
+    padding: 30px;
+    background-color: #ffc8dd;
+    font-family: monospace;
+
+}
