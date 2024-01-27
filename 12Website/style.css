@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:ital,wght@1,100&display=swap');
+
+*{
+ margin: 0;
+ box-sizing: border-box;
+ padding: 0;
+}
+
+:root{
+    --primary-text-color:#183b56;
+    --secondary-text-color:#577592;
+    --accent-color:#2294ed;
+    --accent-color-dark:#1d69a3;  
+    --padding-inline-section:20px;  
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-text-color);
+}
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+h3{
+    font-size: 1rem;
+}
+p{
+    font-family:  'Roboto', sans-serif;
+    font-size: 1.25rem;
+    color: var(--secondary-text-color);
+    line-height: 1.8rem;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;    /* by default inline */
+}
+
+ul{
+    list-style: none;
+}
+
+h5{
+ font-size: 0.8rem;
+}
+
+
+/* utilities classes */
+
+.small-bold-text{
+    font-size:1rem;
+    font-weight: 700;
+}
+/* to maintain the padding equal */
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.hover-links{
+    color: var(--primary-text-color);
+    transition: 0.2s ease-out;
+}
+.hover-links:hover{
+    color: #e61395;
+}
+
+
+.primary-button{
+    background-color: var(--accent-color);
+    border-radius: 6px;
+    font-weight: 700px;
+    padding: 12px 24px;
+    color: white !important;
+    box-shadow: 0 0 2px var(--secondary-text-color);
+    transition: 0.2s ease-out;
+}
+.primary-button:hover{
+    background-color: var(--accent-color-dark);
+}
+
+.secondary-button{
+    border: 1px solid var(--secondary-text-color);
+    border-radius: 6px;
+    padding: 12px 24px;
+    transition: 0.2s ease-out;
+    font-weight: 700px;
+    color: var(--primary-text-color);
+
+
+}
+.secondary-button:hover{
+    border-color: var(--accent-color);
+    color: var(--accent-color) !important;
+ 
+}
+
+
+
+
+
+
+
+
+
+/* top banner */
+.top-banner{
+    background-color: #e61395;
+    background-image:url('./assest/topbanner.png'); 
+    /* image is to big not fit then use the image repreater using background-repeater or make the size -300px */
+    background-size: 300px;
+    /* background-repeat:no-repeat; */
+}
+
+.banner-text{
+    text-align: center;
+    padding: 15px 30px;
+    color: white;
+}
+
+
+/* nav - bar */
+
+.main-nav{
+justify-content: space-between;
+margin-top: 20px;
+}
+
+.company-logo img{
+    width: 200px;
+}  
+
+.nav-links{
+    flex-basis: 750px;
+}
+.nav-links ul{
+    justify-content: end;
+    gap: 40px;
+}
+
+
+
+/* heaer-section */
+
+header{
+  padding: 50px var(--padding-inline-section);  
+}
+
+.header-section{
+    justify-content: center;
+    gap: 50px;
+
+}
+.header-right img{
+    width:600px;
+
+}
+
+.header-left h1{
+    margin-top: 20px;
+}
+.header-left a{
+    margin-top: 20px;
+}
+.header-left{
+ max-width: 40vw;   
+}
+
+/* campanies - section */
+
+.companies-header{
+    text-align: center;
+    margin-block: 30px; /*instead of giving the separate padding for top nd bottom*/
+    color: var(--primary-text-color);
+}
+
+.logos{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    height: 46px;
+}
+
+/* feture section */
+
+
+.feature-section{
+    /* (top, left-right) bottom */
+    padding: 80px var(--padding-inline-section) 0;
+    background-image: url(./assest/asset\ 32.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.feature-header{
+    text-align: center;
+
+}
+.feature-header h2{
+    margin-bottom: 20px;
+}
+
+.feature-area{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.feature-card{
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    max-width: 30%;
+}
+.feature-card img{
+    width: 40px;
+}
+
+/* Big- features */
+
+.big-feature-section {
+  padding: 30px var(--padding-inline-section) 0;
+}
+.big-feature-container{
+    gap: 50px;
+}
+
+.feature-img img {
+    width: 100%;
+    
+}
+.big-feature{
+    flex-direction:column;
+    align-items: flex-start;
+   
+}
+
+/* example-section */
+.example-header{
+    /* text-align: center; */
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.image-section-area{
+    justify-content: space-between;
+    margin-block:30px;
+}
+.image-card{
+    width: 23%;
+    position: relative;
+    min-height: 300px;
+    background: black;
+    border-radius: 4px;
+    transition: 0.2s ease-out;
+}
+
+.image-card:nth-child(4){
+    background:linear-gradient(rgb(0 , 0 , 0 , 0.2),rgb(0 , 0 , 0 , 0.8)),url(./assest/asset\ 37.jpeg); 
+    background-size: cover;
+}
+
+.image-card:hover{
+    box-shadow: 0 0 10px #888;
+}
+
+.card-text{
+    position: absolute;
+    left: 20px;
+    bottom: 25px;
+    right: 20px;
+    color: white;
+}
+
+/* cta section */
+
+.cta-section{
+padding: 120px var(--padding-inline-section) 80px;
+background-color:rgb(7, 7, 44) ;
+}
+.cta-inner-section{
+    flex-direction: column;
+    color: white;
+    gap: 30px;
+}
+
+.cta-inner-section p{
+    color: white;
+    margin-top: 20px;
+}
+
+
+/* footer */
+
+footer{
+   padding-block: 80px  ;
+    background-color:#ebf2fa ;
+}
+
+.footer-links{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.footer-inner-section{
+   align-items: flex-start;
+    padding: 80px var(--padding-inline-section) 0 ;
+    justify-content: space-between;
+}
+
+
+/* sub- footer */
+
+.sub-footer{
+    padding: var(--padding-inline-section) 0;
+    background-color: #b9cde4;
+}
+.sub-inner-footer{
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.manage-img{
+    justify-content: end;
+    gap: 20px;
+}
+
+/* checking */
+
+.checking{
+    width: 100vw;
+    height: 100vh;
+   align-items: center;
+}
+.checking img{
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+
