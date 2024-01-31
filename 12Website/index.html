@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-qurey.css">
 </head>
 <body>
 
@@ -25,7 +26,7 @@
                 <img src="./assest/asset 1.png" alt="comapny logo">
             </a>
 
-            <div class="nav-links">
+            <div class="nav-links" id="nav-bar-id">
                 <ul class="flex">
                     <li><a href="" class="hover-links">Product</a></li>
                     <li><a href="" class="hover-links">Customer</a></li>
@@ -36,6 +37,8 @@
                 </ul>
             </div>
 
+            <a href="#" class="toogle hover-links" id="toogle-link">
+                <i class="fa-sharp fa-solid fa-bars"></i></a>
 
         </div>
     </nav>
@@ -78,7 +81,7 @@
 
 <!-- feature - section -->
 <section class="feature-section">
-    <div class="container">
+    <div class="container" >
         <div class="medium-bold-text   feature-header">
           <h2>Your user research Swiss Army knife</h2>
           <a href="#" class="secondary-button">See All Features <i class="fa-solid fa-right-long"></i></a>
@@ -147,7 +150,7 @@
 
 
   <section class="big-feature-section">
-      <div class="container big-feature-container flex">
+      <div class="container big-feature-container flex" id="big-feature-new">
         <div class="big-feature flex">
            <h3>Effortless validation for</h3>
            <h2>Design Professionals</h2>
@@ -226,8 +229,8 @@
             <img src="./assest/asset 1.png" alt="Company logo">
         </a>
         <div class="footer-links flex">
-            <h3>Product</h3>
-           <a href="#">Product</a>
+        <h3>Product</h3>
+        <a href="#">Product</a>
         <a href="#"> Overview</a>
         <a href="#"> Pricing</a>
         <a href="#"> Research panel </a>
@@ -286,7 +289,18 @@
 
 
 
-    <script src="https://kit.fontawesome.com/03dc394cf8.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/03dc394cf8.js" crossorigin="anonymous"></script>
+
+<script>
+const togglebutton = document.getElementById('toogle-link');
+const navbar= document.getElementById('nav-bar-id');
+
+  togglebutton.addEventListener('click',()=>{
+    navbar.classList.toggle('active');
+  })
+
+</script>
+
 </body>
 </html>
 

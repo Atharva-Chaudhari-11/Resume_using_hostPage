@@ -63,6 +63,7 @@ h5{
     max-width: 1180px;
     margin-inline: auto;
     padding-inline: var(--padding-inline-section);
+    overflow: hidden;
 }
 
 .flex{
@@ -87,6 +88,7 @@ h5{
     color: white !important;
     box-shadow: 0 0 2px var(--secondary-text-color);
     transition: 0.2s ease-out;
+    text-align: center;
 }
 .primary-button:hover{
     background-color: var(--accent-color-dark);
@@ -137,6 +139,7 @@ h5{
 .main-nav{
 justify-content: space-between;
 margin-top: 20px;
+position: relative;
 }
 
 .company-logo img{
@@ -151,9 +154,12 @@ margin-top: 20px;
     gap: 40px;
 }
 
+.toogle{
+    display: none;
+}
 
 
-/* heaer-section */
+/* header-section */
 
 header{
   padding: 50px var(--padding-inline-section);  
@@ -165,8 +171,12 @@ header{
 
 }
 .header-right img{
-    width:600px;
+    width: 100%;
 
+}
+
+.header-left{
+    width: 40vw;
 }
 
 .header-left h1{
@@ -175,9 +185,7 @@ header{
 .header-left a{
     margin-top: 20px;
 }
-.header-left{
- max-width: 40vw;   
-}
+
 
 /* campanies - section */
 
@@ -188,7 +196,7 @@ header{
 }
 
 .logos{
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .logo{
@@ -260,11 +268,12 @@ header{
 .image-section-area{
     justify-content: space-between;
     margin-block:30px;
+    flex-wrap: wrap;
 }
 .image-card{
     width: 23%;
     position: relative;
-    min-height: 300px;
+    height: 300px;
     background: black;
     border-radius: 4px;
     transition: 0.2s ease-out;
@@ -334,8 +343,9 @@ footer{
 .sub-inner-footer{
     flex-direction: row;
     justify-content: space-between;
-
-
+}
+.sub-f{
+flex-wrap: wrap;
 }
 
 .manage-img{
