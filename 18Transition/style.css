@@ -1,0 +1,35 @@
+.container{
+    background-color: aquamarine;
+    width: 300px;
+    height: 300px;
+    margin: 30% auto;
+    transition-duration: 1s;
+    /* transition-property:  background-color,transform,border-radius; */
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* transition: 0.2s ease-in; */
+    /* transform: scale(2); */
+    /* transition-delay: 2s;
+    transition-duration: 4s; */
+}
+/* .box:hover{
+    cursor: pointer;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: aqua;
+} */
+
+.container:hover{
+    background-color: violet;
+    transform: rotate(40deg);
+    border-radius: 50%;
+}

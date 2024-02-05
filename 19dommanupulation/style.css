@@ -1,0 +1,22 @@
+.container{
+width: 600px;
+display: flex;
+flex-wrap: wrap;
+background-color: teal;
+}
+
+.box{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 5px 5px ;
+}
+
+.random-class{
+    border-radius: 50%;
+    border: 1px solid red;
+}

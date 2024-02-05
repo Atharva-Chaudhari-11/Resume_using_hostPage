@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* .container {
+    width: 400px;
+    height: 400px;
+    background-color: steelblue;
+    margin: 80px auto;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transition: 0.5s ease;
+    transform-origin: 100px 200px; */
+    /* animation: circle-in-hesitate 0.5s ease alternate; 
+}
+*/
+
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(29, 29, 105);
+    margin: 100px auto;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    transition: 0.8s ease-in;
+    /* transform-origin: 100% 100%; */
+    /* transform: rotate(30deg); */
+}
+.box:hover{
+    /* transform:rotatey(90deg); */
+    /* transform:scale(2,1); */
+    /* transform: scale3d(1,2,3); it is use to scale the x,y,z axix */
+
+    transform:translate(20px,40px);
+    /* transform: skew(30deg); */
+    /* on x axis it goes from left to right  & on y it goes plane to up */
+/* transform: rotate(20deg ); */
+
+}
